@@ -63,6 +63,8 @@ This is a quickstart for creating an AI plugin, from writing a simple API server
 
 ### Deploy with GitHub Actions
 
+> NOTE: Due to a security restriction Codespaces in the browser may not work for you.  If you see an error when running the following commands, then please open the project with VS Code by choosing the Connect to Codespace option.
+
 1. Fork this repo to your own account
 1. Open your fork in Codespaces, Dev Container or Local
 1. Open a terminal
