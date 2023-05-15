@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "contosoproducts",
+  "name_for_human": "Contoso Product Search",
+  "description_for_model": "Plugin for searching through my shop offering various outdoor and sports products. Use it whenever a user asks anything about outdoor, climbing, hiking or sports products.",
+  "description_for_human": "Contoso Outdoor and Sports Products Search.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "is_user_authenticated": "false",
+    "url": "$host/openapi.json"
+  },
+  "logo_url": "$host/assets/imgs/logo.png",
+  "contact_email": "noreply@microsoft.com",
+  "legal_info_url": "https://www.microsoft.com/en-us/legal/"
+}

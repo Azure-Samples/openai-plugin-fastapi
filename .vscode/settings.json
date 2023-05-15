@@ -1,0 +1,182 @@
+{
+    "python.testing.pytestArgs": ["."],
+    "python.testing.unittestEnabled": false,
+    "python.testing.pytestEnabled": true,
+    "json.schemas": [
+      {
+        "fileMatch": ["ai-plugin.json"],
+        "schema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "schema_version": {
+              "type": "string",
+              "description": "Manifest schema version",
+              "examples": ["v1"]
+            },
+            "name_for_model": {
+              "type": "string",
+              "maxLength": 50,
+              "pattern": "^[a-zA-Z0-9]*$",
+              "title": "Name for model",
+              "description": "Name the model will use to target the plugin (no spaces allowed, only letters and numbers). 50 character max."
+            },
+            "name_for_human": {
+              "type": "string",
+              "maxLength": 20,
+              "description": "Human-readable name, such as the full company name. 20 character max."
+            },
+            "description_for_model": {
+              "type": "string",
+              "maxLength": 8000,
+              "description": "Description better tailored to the model, such as token context length considerations or keyword usage for improved plugin prompting. 8,000 character max."
+            },
+            "description_for_human": {
+              "type": "string",
+              "maxLength": 100,
+              "description": "Human-readable description of the plugin. 100 character max."
+            },
+            "auth": {
+              "type": "object",
+              "description": "Authentication schema",
+              "oneOf": [
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "enum": ["none"]
+                    }
+                  },
+                  "required": ["type"]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "enum": ["service_http"]
+                    },
+                    "authorization_type": {
+                      "type": "string",
+                      "enum": ["bearer", "basic"]
+                    },
+                    "verification_tokens": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "authorization_type",
+                    "verification_tokens"
+                  ]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "enum": ["user_http"]
+                    },
+                    "authorization_type": {
+                      "type": "string",
+                      "enum": ["bearer", "basic"]
+                    }
+                  },
+                  "required": ["type", "authorization_type"]
+                },
+                {
+                  "type": "object",
+                  "properties": {
+                    "type": {
+                      "type": "string",
+                      "enum": ["oauth"]
+                    },
+                    "client_url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "scope": {
+                      "type": "string"
+                    },
+                    "authorization_url": {
+                      "type": "string",
+                      "format": "uri"
+                    },
+                    "authorization_content_type": {
+                      "type": "string"
+                    },
+                    "verification_tokens": {
+                      "type": "object",
+                      "additionalProperties": {
+                        "type": "string"
+                      }
+                    }
+                  },
+                  "required": [
+                    "type",
+                    "client_url",
+                    "scope",
+                    "authorization_url",
+                    "authorization_content_type",
+                    "verification_tokens"
+                  ]
+                }
+              ]
+            },
+            "api": {
+              "type": "object",
+              "description": "API specification",
+              "properties": {
+                "type": {
+                  "type": "string",
+                  "enum": ["openapi"],
+                  "description": "API specification type"
+                },
+                "is_user_authenticated": {
+                  "type": "boolean",
+                  "description": "Indicates whether the user is authenticated"
+                },
+                "url": {
+                  "type": "string",
+                  "format": "uri",
+                  "description": "URL of the API specification"
+                }
+              },
+              "required": ["type", "is_user_authenticated", "url"]
+            },          
+            "logo_url": {
+              "type": "string",
+              "format": "uri",
+              "description": "URL used to fetch the logo. Suggested size: 512 x 512. Transparent backgrounds are supported."
+            },
+            "contact_email": {
+              "type": "string",
+              "format": "email",
+              "description": "Email contact for safety/moderation, support, and deactivation"
+            },
+            "legal_info_url": {
+              "type": "string",
+              "format": "uri"
+            }
+          },
+          "required": [
+            "schema_version",
+            "name_for_model",
+            "name_for_human",
+            "description_for_model",
+            "description_for_human",
+            "auth",
+            "api",
+            "logo_url",
+            "contact_email",
+            "legal_info_url"
+          ]
+        }
+      }
+    ]
+  }
+  

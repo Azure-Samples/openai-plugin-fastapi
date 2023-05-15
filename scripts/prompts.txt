@@ -1,0 +1,9 @@
+Generate a sample set of 50 products for climbing, including carabiners of different sizes, materials and colors, ropes, safety devices, clothing and others. Output this information in JSON format following this style:  
+
+[  
+ { "id": "unique_id", "description": "a product description with 5 to 25 words", "category": "product category" }  
+]
+
+------------
+
+Now use the same format, but add a field called "manual" with approximately 100 words per product.

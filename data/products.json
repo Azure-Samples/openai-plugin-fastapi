@@ -1,0 +1,443 @@
+[
+    {
+      "name": "Contoso Climbing Shoes",
+      "description": "High-performance climbing shoes for advanced climbers",
+      "category": "Climbing",
+      "size": "8",
+      "price": 149.99
+    },
+    {
+      "name": "Contoso Hiking Boots",
+      "description": "Durable hiking boots for all-day comfort on the trails",
+      "category": "Hiking",
+      "size": "10",
+      "price": 129.99
+    },
+    {
+      "name": "Contoso Climbing Rope",
+      "description": "Dynamic climbing rope for lead climbing and top roping",
+      "category": "Climbing",
+      "size": "60m",
+      "price": 199.99
+    },
+    {
+      "name": "Contoso Hiking Backpack",
+      "description": "Lightweight backpack with ample storage for day hikes",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 79.99
+    },
+    {
+      "name": "Contoso Climbing Harness",
+      "description": "Comfortable and adjustable harness for all types of climbing",
+      "category": "Climbing",
+      "size": "Medium",
+      "price": 89.99
+    },
+    {
+      "name": "Contoso Hiking Poles",
+      "description": "Collapsible hiking poles for added stability on the trails",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 49.99
+    },
+    {
+      "name": "Contoso Climbing Chalk Bag",
+      "description": "Durable chalk bag with a drawstring closure for easy access",
+      "category": "Climbing",
+      "size": "One Size",
+      "price": 24.99
+    },
+    {
+      "name": "Contoso Hiking Hat",
+      "description": "Breathable and moisture-wicking hat for sunny hikes",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 19.99
+    },
+    {
+      "name": "Contoso Climbing Quickdraws",
+      "description": "Set of 6 quickdraws for sport climbing and trad climbing",
+      "category": "Climbing",
+      "size": "One Size",
+      "price": 119.99
+    },
+    {
+      "name": "Contoso Hiking Jacket",
+      "description": "Waterproof and breathable jacket for rainy hikes",
+      "category": "Hiking",
+      "size": "Large",
+      "price": 149.99
+    },
+    {
+      "name": "Contoso Climbing Helmet",
+      "description": "Lightweight and durable helmet for rock climbing and mountaineering",
+      "category": "Climbing",
+      "size": "Medium",
+      "price": 99.99
+    },
+    {
+      "name": "Contoso Hiking Pants",
+      "description": "Quick-drying and stretchy pants for hiking and backpacking",
+      "category": "Hiking",
+      "size": "Small",
+      "price": 69.99
+    },
+    {
+      "name": "Contoso Climbing Carabiners",
+      "description": "Set of 10 carabiners for climbing and rappelling",
+      "category": "Climbing",
+      "size": "One Size",
+      "price": 79.99
+    },
+    {
+      "name": "Contoso Hiking Socks",
+      "description": "Moisture-wicking and cushioned socks for long hikes",
+      "category": "Hiking",
+      "size": "Medium",
+      "price": 14.99
+    },
+    {
+      "name": "Contoso Climbing Pulley",
+      "description": "Durable and lightweight pulley for hauling gear on big walls",
+      "category": "Climbing",
+      "size": "One Size",
+      "price": 39.99
+    },
+    {
+      "name": "Contoso Hiking Water Bottle",
+      "description": "Stainless steel water bottle with a carabiner clip for easy carrying",
+      "category": "Hiking",
+      "size": "20 oz",
+      "price": 24.99
+    },
+    {
+      "name": "Contoso Climbing Slings",
+      "description": "Set of 3 slings for building anchors and extending placements",
+      "category": "Climbing",
+      "size": "One Size",
+      "price": 29.99
+    },
+    {
+      "name": "Contoso Hiking GPS",
+      "description": "Handheld GPS device with preloaded maps for navigation on the trails",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 199.99
+    },
+    {
+      "name": "Contoso Climbing Nut Tool",
+      "description": "Multi-functional tool for removing stuck nuts and cleaning gear",
+      "category": "Climbing",
+      "size": "One Size",
+      "price": 19.99
+    },
+    {
+      "name": "Contoso Hiking Headlamp",
+      "description": "Lightweight and rechargeable headlamp for night hikes and camping",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 49.99
+    },
+    {
+      "name": "Contoso Climbing Anchor Kit",
+      "description": "Complete kit for building anchors on multi-pitch climbs",
+      "category": "Climbing",
+      "size": "One Size",
+      "price": 299.99
+    },
+    {
+      "name": "Contoso Hiking Sleeping Bag",
+      "description": "Lightweight and compressible sleeping bag for backpacking",
+      "category": "Hiking",
+      "size": "Regular",
+      "price": 199.99
+    },
+    {
+      "name": "Contoso Climbing Camalot",
+      "description": "Durable and versatile camming device for rock climbing",
+      "category": "Climbing",
+      "size": "Size 2",
+      "price": 89.99
+    },
+    {
+      "name": "Contoso Hiking Tent",
+      "description": "Lightweight and waterproof tent for backpacking and camping",
+      "category": "Hiking",
+      "size": "2-Person",
+      "price": 299.99
+    },
+    {
+      "name": "Contoso Climbing Nut",
+      "description": "Durable and lightweight nut for passive protection on trad climbs",
+      "category": "Climbing",
+      "size": "Size 5",
+      "price": 14.99
+    },
+    {
+      "name": "Contoso Hiking Stove",
+      "description": "Compact and efficient stove for cooking meals on the trail",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 79.99
+    },
+    {
+      "name": "Contoso Climbing Ascender",
+      "description": "Mechanical ascender for ascending ropes on big walls and aid climbs",
+      "category": "Climbing",
+      "size": "One Size",
+      "price": 129.99
+    },
+    {
+      "name": "Contoso Hiking Gaiters",
+      "description": "Waterproof and breathable gaiters for keeping debris out of your boots",
+      "category": "Hiking",
+      "size": "Medium",
+      "price": 39.99
+    },
+    {
+      "name": "Contoso Climbing Hex",
+      "description": "Durable and versatile hex for passive protection on trad climbs",
+      "category": "Climbing",
+      "size": "Size 4",
+      "price": 24.99
+    },
+    {
+      "name": "Contoso Hiking Compass",
+      "description": "Compact and accurate compass for navigation on the trails",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 9.99
+    },
+    {
+      "name": "Contoso Climbing Cams",
+      "description": "Set of 3 camming devices for rock climbing and aid climbing",
+      "category": "Climbing",
+      "size": "Sizes 1-3",
+      "price": 299.99
+    },
+    {
+      "name": "Contoso Hiking First Aid Kit",
+      "description": "Compact and comprehensive first aid kit for emergencies on the trails",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 49.99
+    },
+    {
+      "name": "Contoso Climbing Piton",
+      "description": "Durable and versatile piton for aid climbing and big wall climbing",
+      "category": "Climbing",
+      "size": "Size 2",
+      "price": 19.99
+    },
+    {
+      "name": "Contoso Hiking Sunscreen",
+      "description": "Water-resistant and sweat-resistant sunscreen for sunny hikes",
+      "category": "Hiking",
+      "size": "3 oz",
+      "price": 14.99
+    },
+    {
+      "name": "Contoso Climbing Pullover",
+      "description": "Warm and breathable pullover for chilly days at the crag",
+      "category": "Climbing",
+      "size": "Large",
+      "price": 79.99
+    },
+    {
+      "name": "Contoso Hiking Map",
+      "description": "Waterproof and tear-resistant map for navigation on the trails",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 9.99
+    },
+    {
+      "name": "Contoso Climbing Nut Tool Set",
+      "description": "Set of 3 multi-functional nut tools for removing stuck nuts and cleaning gear",
+      "category": "Climbing",
+      "size": "One Size",
+      "price": 49.99
+    },
+    {
+      "name": "Contoso Hiking Insoles",
+      "description": "Cushioned and supportive insoles for all-day comfort on the trails",
+      "category": "Hiking",
+      "size": "Medium",
+      "price": 29.99
+    },
+    {
+      "name": "Contoso Climbing Rope Bag",
+      "description": "Durable and spacious bag for storing and transporting climbing ropes",
+      "category": "Climbing",
+      "size": "One Size",
+      "price": 59.99
+    },
+    {
+      "name": "Contoso Hiking Rain Poncho",
+      "description": "Lightweight and waterproof poncho for unexpected rain on the trails",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 29.99
+    },
+    {
+      "name": "Contoso Climbing Anchor Cord",
+      "description": "Durable and static cord for building anchors on multi-pitch climbs",
+      "category": "Climbing",
+      "size": "60m",
+      "price": 99.99
+    },
+    {
+      "name": "Contoso Hiking Bug Spray",
+      "description": "DEET-free bug spray for repelling mosquitoes and ticks on the trails",
+      "category": "Hiking",
+      "size": "4 oz",
+      "price": 12.99
+    },
+    {
+      "name": "Contoso Climbing Nut Set",
+      "description": "Set of 6 passive nuts for trad climbing and aid climbing",
+      "category": "Climbing",
+      "size": "Sizes 1-6",
+      "price": 99.99
+    },
+    {
+      "name": "Contoso Hiking Multitool",
+      "description": "Compact and versatile multitool for repairs and emergencies on the trails",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 39.99
+    },
+    {
+      "name": "Contoso Climbing Anchor Webbing",
+      "description": "Durable and versatile webbing for building anchors on multi-pitch climbs",
+      "category": "Climbing",
+      "size": "30ft",
+      "price": 49.99
+    },
+    {
+      "name": "Contoso Hiking Sunglasses",
+      "description": "Polarized and UV-resistant sunglasses for sunny hikes",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 59.99
+    },
+    {
+      "name": "Contoso Climbing Nut Tool Holster",
+      "description": "Durable and adjustable holster for carrying a nut tool on your harness",
+      "category": "Climbing",
+      "size": "One Size",
+      "price": 14.99
+    },
+    {
+      "name": "Contoso Hiking Camp Stove",
+      "description": "Compact and efficient camp stove for cooking meals at the campsite",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 99.99
+    },
+    {
+      "name": "Contoso Climbing Carabiner Set",
+      "description": "Set of 10 locking carabiners for building anchors and rappelling",
+      "category": "Climbing",
+      "size": "One Size",
+      "price": 149.99
+    },
+    {
+      "name": "Contoso Hiking Sleeping Pad",
+      "description": "Lightweight and inflatable sleeping pad for backpacking",
+      "category": "Hiking",
+      "size": "Regular",
+      "price": 99.99
+    },
+    {
+      "name": "Contoso Climbing Nut Tool Leash",
+      "description": "Durable and adjustable leash for securing a nut tool to your harness",
+      "category": "Climbing",
+      "size": "One Size",
+      "price": 9.99
+    },
+    {
+      "name": "Contoso Hiking Trekking Poles",
+      "description": "Collapsible and adjustable trekking poles for added stability on the trails",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 69.99
+    },
+    {
+      "name": "Contoso Climbing Anchor Hanger",
+      "description": "Durable and versatile hanger for building anchors on multi-pitch climbs",
+      "category": "Climbing",
+      "size": "One Size",
+      "price": 19.99
+    },
+    {
+      "name": "Contoso Hiking Water Filter",
+      "description": "Compact and efficient water filter for purifying water on the trails",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 79.99
+    },
+    {
+      "name": "Contoso Climbing Nut Tool Kit",
+      "description": "Complete kit for removing stuck nuts and cleaning gear on trad climbs",
+      "category": "Climbing",
+      "size": "One Size",
+      "price": 79.99
+    },
+    {
+      "name": "Contoso Hiking Camp Chair",
+      "description": "Lightweight and portable camp chair for relaxing at the campsite",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 49.99
+    },
+    {
+      "name": "Contoso Climbing Anchor Bolt",
+      "description": "Durable and versatile bolt for building anchors on multi-pitch climbs",
+      "category": "Climbing",
+      "size": "3/8in",
+      "price": 4.99
+    },
+    {
+      "name": "Contoso Hiking Camp Table",
+      "description": "Lightweight and portable camp table for cooking and eating at the campsite",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 99.99
+    },
+    {
+      "name": "Contoso Climbing Anchor Nut",
+      "description": "Durable and versatile nut for building anchors on multi-pitch climbs",
+      "category": "Climbing",
+      "size": "Size 3",
+      "price": 9.99
+    },
+    {
+      "name": "Contoso Hiking Camp Lantern",
+      "description": "Compact and rechargeable camp lantern for lighting up the campsite",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 29.99
+    },
+    {
+      "name": "Contoso Climbing Anchor Bolt Hanger",
+      "description": "Durable and versatile hanger for attaching bolts to anchors on multi-pitch climbs",
+      "category": "Climbing",
+      "size": "One Size",
+      "price": 14.99
+    },
+    {
+      "name": "Contoso Hiking Camp Cookware Set",
+      "description": "Compact and lightweight cookware set for cooking meals at the campsite",
+      "category": "Hiking",
+      "size": "One Size",
+      "price": 59.99
+    },
+    {
+      "name": "Contoso Climbing Anchor Bolt Nut",
+      "description": "Durable and versatile nut for attaching bolts to anchors on multi-pitch climbs",
+      "category": "Climbing",
+      "size": "3/8in",
+      "price": 2.99
+    }
+]
