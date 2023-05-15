@@ -14,7 +14,7 @@ with open("./data/products.json", "r") as f:
 
 
 @app.get("/products")
-async def get_products(query):
+async def get_products(query: str = None):
     """Get products from the fake database"""
     if query:
         return [
