@@ -12,7 +12,7 @@
     "is_user_authenticated": "false",
     "url": "$host/openapi.json"
   },
-  "logo_url": "$host/assets/imgs/logo.png",
+  "logo_url": "$host/.well-known/logo.png",
   "contact_email": "noreply@microsoft.com",
   "legal_info_url": "https://www.microsoft.com/en-us/legal/"
 }
