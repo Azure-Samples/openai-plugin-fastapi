@@ -3,3 +3,4 @@ uvicorn
 pydantic
 pytest
 httpx
+pyyaml

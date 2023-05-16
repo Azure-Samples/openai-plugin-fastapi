@@ -10,7 +10,7 @@
   "api": {
     "type": "openapi",
     "is_user_authenticated": "false",
-    "url": "$host/openapi.json"
+    "url": "$host/.well-known/openapi.yaml"
   },
   "logo_url": "$host/.well-known/logo.png",
   "contact_email": "noreply@microsoft.com",
