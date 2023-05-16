@@ -1,4 +1,4 @@
-# AI Plugin Quickstart (Python 🐍)
+# ChatGPT Plugin Quickstart using Python and FastAPI
 
 This is a quickstart for sample for creating [ChatGPT Plugin](https://openai.com/blog/chatgpt-plugins) using GitHub Codespaces, VS Code, and Azure. The sample includes templates to deploy the plugin to [Azure Container Apps](https://learn.microsoft.com/en-us/azure/container-apps/) using the [Azure Developer CLI](https://aka.ms/azd/install). To gain access to ChatGPT plugins, [join waitlist here](https://openai.com/waitlist/plugins)!
 
