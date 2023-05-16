@@ -28,5 +28,6 @@ async def get_products(query: Optional[str] = None):
     Returns a list of products, optionally filtered by providing a query parameter.
     """
     if query:
-        return [product for product in products if query.lower() in str(product.values()).lower()]
+        keywords = query.lower().split()
+        return [product for product in products if all(keyword in str(product.values()).lower() for keyword in keywords)]
     return products
