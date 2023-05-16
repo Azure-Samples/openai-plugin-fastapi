@@ -49,7 +49,7 @@
     "remoteUser": "vscode",
     "hostRequirements": {
         "memory": "8gb",
-        "cpus": 8
+        "cpus": 4
     },
     "portsAttributes": {
         "8000": {
