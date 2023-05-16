@@ -1,23 +1,21 @@
 from fastapi import FastAPI
 from routers.wellknown import wellknown
 from fastapi.middleware.cors import CORSMiddleware
-
 import json
 
-app = FastAPI()
+app = FastAPI(title="Product Search", version="1.0")
 app.include_router(wellknown)
 app.add_middleware(CORSMiddleware, allow_origins=["https://chat.openai.com"])
 
-# Load fake products from product.json
 with open("./data/products.json", "r") as f:
     products = json.load(f)
 
-
-@app.get("/products")
+@app.get("/products", summary="Get a list of products", operation_id="getProducts")
 async def get_products(query: str = None):
-    """Get products from the fake database"""
+    """
+    Returns a list of products, optionally filtered by providing a query parameter.
+    """
     if query:
-        return [
-            product for product in products if query.lower() in product["description"]
-        ]
+        keywords = query.lower().split()
+        return [product for product in products if all(keyword in str(product.values()).lower() for keyword in keywords)]
     return products
