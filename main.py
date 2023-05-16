@@ -10,6 +10,7 @@ app.add_middleware(CORSMiddleware, allow_origins=["https://chat.openai.com"])
 with open("./data/products.json", "r") as f:
     products = json.load(f)
 
+
 @app.get("/products", summary="Get a list of products", operation_id="getProducts")
 async def get_products(query: str = None):
     """
@@ -17,5 +18,9 @@ async def get_products(query: str = None):
     """
     if query:
         keywords = query.lower().split()
-        return [product for product in products if all(keyword in str(product.values()).lower() for keyword in keywords)]
+        return [
+            product
+            for product in products
+            if all(keyword in str(product.values()).lower() for keyword in keywords)
+        ]
     return products
