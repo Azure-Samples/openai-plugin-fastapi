@@ -2,8 +2,8 @@
   "schema_version": "v1",
   "name_for_model": "contosoproducts",
   "name_for_human": "Contoso Product Search",
-  "description_for_model": "Plugin for searching through my shop offering various outdoor and sports products. Use it whenever a user asks anything about outdoor, climbing, hiking or sports products.",
-  "description_for_human": "Contoso Outdoor and Sports Products Search.",
+  "description_for_model": "Plugin for searching through Contoso's outdoor and recreational products. Use it whenever a user asks about products or activities related to camping, hiking, climbing or camping.",
+  "description_for_human": "Search through Contoso's wide range of outdoor and recreational products.",
   "auth": {
     "type": "none"
   },
