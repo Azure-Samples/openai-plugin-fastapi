@@ -41,7 +41,6 @@
         }
     },
     "forwardPorts": [
-        6379,
         8000
     ],
     "postAttachCommand": "",
