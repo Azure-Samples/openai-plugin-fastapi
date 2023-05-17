@@ -41,7 +41,6 @@
         }
     },
     "forwardPorts": [
-        6379,
         8000
     ],
     "postAttachCommand": "",
@@ -49,7 +48,7 @@
     "remoteUser": "vscode",
     "hostRequirements": {
         "memory": "8gb",
-        "cpus": 8
+        "cpus": 4
     },
     "portsAttributes": {
         "8000": {
