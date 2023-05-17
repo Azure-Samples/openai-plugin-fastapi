@@ -3,7 +3,7 @@ from routers.wellknown import wellknown
 from fastapi.middleware.cors import CORSMiddleware
 import json
 
-app = FastAPI(title="Product Search", version="1.0")
+app = FastAPI()
 app.include_router(wellknown)
 app.add_middleware(CORSMiddleware, allow_origins=["https://chat.openai.com"])
 
