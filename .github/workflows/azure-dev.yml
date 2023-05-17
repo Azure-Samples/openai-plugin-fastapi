@@ -3,6 +3,7 @@ on:
   push:
     branches:
       - main
+      - before-deploy
 
 # https://learn.microsoft.com/en-us/azure/developer/github/connect-from-azure?tabs=azure-portal%2Clinux#set-up-azure-login-with-openid-connect-authentication
 permissions:
