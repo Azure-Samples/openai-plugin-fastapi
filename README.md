@@ -48,6 +48,8 @@ This is a quickstart for sample for creating [ChatGPT Plugin](https://openai.com
 1. Open Chat GPT and add the plugin with `localhost:8000`
 1. Run a query for 'hiking boots'
 
+If you are planning to add this plug into https://github.com/microsoft/chat-copilot running locally, you will need to add localhost and localhost:8000 to the allowed origins list in the CORS Middleware.
+
 ## Deploy to Azure
 
 > NOTE: If you are running locally, then you first need to [install the Azure Developer CLI](https://aka.ms/azd/install)
