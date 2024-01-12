@@ -7,6 +7,9 @@ languages:
 products:
   - azure
   - fastapi
+  - azure-container-apps
+  - azure-container-registry
+  - azure-monitor
 urlFragment: openai-plugin-fastapi
 name: ChatGPT Plugin FastAPI
 description: A simple ChatGPT Plugin running in Codespaces for dev and Azure for production.
